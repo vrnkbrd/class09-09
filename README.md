@@ -1,4 +1,4 @@
-#### Task 8kyu:
+### Task 8kyu:
 You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
 
 Array can contain numbers or strings. X can be either.
@@ -28,6 +28,32 @@ public class Solution {
         return Arrays.asList(a).contains(x);
     }
 
+}
+```
+
+### Task 7kyu:
+You've just moved into a perfectly straight street with exactly n identical houses on either side of the road. Naturally, you would like to find out the house number of the people on the other side of the street. 
+[Task link](https://www.codewars.com/kata/5f0ed36164f2bc00283aed07/java)
+
+#### Solution:
+```Java
+public class Codewars2 {
+    public static void main(String[] args) {
+
+    }
+    public static long overTheRoad(long address, long n) {
+        long inv = 1 + n * 2;
+        return inv-address;
+    }
+}
+```
+#### Fav solution:
+I liked this binary shift multiplying.
+```Java
+class CodeWars {
+  public static long overTheRoad(long a, long n) {
+    return (n<<1) - --a;
+  }
 }
 ```
 
