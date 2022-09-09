@@ -1,4 +1,4 @@
-####Task:
+#### Task:
 You will be given an array a and a value x. All you need to do is check whether the provided array contains the value.
 
 Array can contain numbers or strings. X can be either.
@@ -6,7 +6,7 @@ Return true if the array contains the value, false if not.
 
 [Task link](https://www.codewars.com/kata/57cc975ed542d3148f00015b/java)
 
-####Solution: 
+#### Solution: 
 ```Java
 public class solution {
     public static boolean check(Object[] arr, Object value) {
@@ -18,7 +18,7 @@ public class solution {
 }
 ```
 
-####Fav solution: 
+#### Fav solution: 
 ```Java
 import java.util.Arrays;
 
